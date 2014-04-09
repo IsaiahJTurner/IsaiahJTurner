@@ -56,21 +56,19 @@
     for (UIButton *button in self.allButtons) {
         [button.layer removeAllAnimations];
     }
-    self.myFace.frame = CGRectMake(160, 342, 60, 60);
-    self.myFace.center = CGPointMake(160, 342);
+    self.myFace.frame = CGRectMake(160, 364, 60, 60);
+    self.myFace.center = CGPointMake(160, 364);
     self.blurView.blurRadius = 0;
 }
 
 -(void)viewDidAppear:(BOOL)animated {
-    
-    [self bounceMyFace];
-    [self performSelector:@selector(moveButtonsIntoPlace) withObject:nil afterDelay:0.6];
+    if (!self.big) {
+  [self bounceMyFace];
+  [self performSelector:@selector(moveButtonsIntoPlace) withObject:nil afterDelay:0.6];
+        self.big = TRUE;
+    }
 }
 
--(void)viewWillDisappear:(BOOL)animated {
-    self.myFace.frame = [[self.myFace.layer presentationLayer] frame];
-    [self.myFace.layer removeAllAnimations];
-}
 
 - (void) bounceMyFace {
 	NSString *keyPath = @"transform";

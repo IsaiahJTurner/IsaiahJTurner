@@ -56,7 +56,7 @@
 		E6F6B12918A7E568002B3092 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F6B10818A7E568002B3092 /* Foundation.framework */; };
 		E6F6B12A18A7E568002B3092 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F6B10C18A7E568002B3092 /* UIKit.framework */; };
 		E6F6B13218A7E568002B3092 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B13018A7E568002B3092 /* InfoPlist.strings */; };
-		E6F6B13418A7E568002B3092 /* FlappyBlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B13318A7E568002B3092 /* FlappyBlockTests.m */; };
+		E6F6B13418A7E568002B3092 /* IsaaiahJTurnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B13318A7E568002B3092 /* IsaaiahJTurnerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,7 +145,7 @@
 		E6F6B12718A7E568002B3092 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E6F6B12F18A7E568002B3092 /* IsaiahJTurnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IsaiahJTurnerTests-Info.plist"; sourceTree = "<group>"; };
 		E6F6B13118A7E568002B3092 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E6F6B13318A7E568002B3092 /* FlappyBlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBlockTests.m; sourceTree = "<group>"; };
+		E6F6B13318A7E568002B3092 /* IsaaiahJTurnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsaaiahJTurnerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -378,7 +378,7 @@
 			children = (
 				C61CAEF018F5F1B500CD9A84 /* Main.storyboard */,
 				E6F6B10E18A7E568002B3092 /* IsaiahJTurner */,
-				E6F6B12D18A7E568002B3092 /* FlappyBlockTests */,
+				E6F6B12D18A7E568002B3092 /* IsaaiahJTurnerTests */,
 				E6F6B10718A7E568002B3092 /* Frameworks */,
 				E6F6B10618A7E568002B3092 /* Products */,
 			);
@@ -430,13 +430,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E6F6B12D18A7E568002B3092 /* FlappyBlockTests */ = {
+		E6F6B12D18A7E568002B3092 /* IsaaiahJTurnerTests */ = {
 			isa = PBXGroup;
 			children = (
-				E6F6B13318A7E568002B3092 /* FlappyBlockTests.m */,
+				E6F6B13318A7E568002B3092 /* IsaaiahJTurnerTests.m */,
 				E6F6B12E18A7E568002B3092 /* Supporting Files */,
 			);
-			name = FlappyBlockTests;
+			name = IsaaiahJTurnerTests;
 			path = IsaiahJTurnerTests;
 			sourceTree = "<group>";
 		};
@@ -591,7 +591,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6F6B13418A7E568002B3092 /* FlappyBlockTests.m in Sources */,
+				E6F6B13418A7E568002B3092 /* IsaaiahJTurnerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

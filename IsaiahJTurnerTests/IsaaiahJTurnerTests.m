@@ -8,7 +8,7 @@
 
 #import <XCTest/XCTest.h>
 
-@interface FlappyBlockTests : XCTestCase
+@interface IsaaiahJTurnerTests : XCTestCase
 
 @end
 
