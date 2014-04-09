@@ -7,6 +7,7 @@
 //
 
 #import "IJTAboutMeViewController.h"
+#import "IJTMyWebsiteViewController.h"
 
 @interface IJTAboutMeViewController ()
 
@@ -35,15 +36,21 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+- (IBAction)volunteerAction:(id)sender {
+    [self presentURL:@"http://sailingcenterchesapeake.org/"];
 }
-*/
+- (IBAction)sailAction:(id)sender {
+    [self presentURL:@"http://www.smrhs.org/page.cfm?p=4354"];
+}
+- (IBAction)olympicAction:(id)sender {
+    [self presentURL:@"http://www.specialolympics.org/sailing.aspx"];
+}
 
+- (void)presentURL:(NSString *)url {
+    IJTMyWebsiteViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"websiteVC"];
+    vc.fullURL = url;
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

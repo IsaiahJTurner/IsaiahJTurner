@@ -8,6 +8,7 @@
 
 #import "IJTViewController.h"
 #import "IJTLifeEventsDataSource.h"
+#import "IJTMyWebsiteViewController.h"
 
 @interface IJTViewController ()
 
@@ -194,7 +195,9 @@ int myRandom() {
 }
 
 - (IBAction)viewGallery:(id)sender {
-    [self.navigationController pushViewController:[self.storyboard instantiateViewControllerWithIdentifier:@"websiteVC"] animated:YES];
+    IJTMyWebsiteViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"websiteVC"];;
+    vc.fullURL = @"http://isaiahjturner.com";
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 #pragma mark - PullableView Delegate

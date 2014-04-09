@@ -12,6 +12,7 @@
 		C61CAEE918F4E08E00CD9A84 /* up-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEE818F4E08E00CD9A84 /* up-128.png */; };
 		C61CAEEB18F4ED3500CD9A84 /* logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEEA18F4ED3500CD9A84 /* logo-2.png */; };
 		C61CAEEF18F5F1A500CD9A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B11A18A7E568002B3092 /* Main.storyboard */; };
+		C61CAEF418F6061300CD9A84 /* my_face.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEF318F6061300CD9A84 /* my_face.png */; };
 		C64B5BA518F351D3006FC9C7 /* _71H5096_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */; };
 		C64B5BA818F35237006FC9C7 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BA718F35237006FC9C7 /* FXBlurView.m */; };
 		C64B5BAE18F356DB006FC9C7 /* ScaleBounceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BAD18F356DB006FC9C7 /* ScaleBounceController.m */; };
@@ -76,6 +77,7 @@
 		C61CAEE818F4E08E00CD9A84 /* up-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-128.png"; sourceTree = "<group>"; };
 		C61CAEEA18F4ED3500CD9A84 /* logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-2.png"; sourceTree = "<group>"; };
 		C61CAEF118F5F1B500CD9A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IsaiahJTurner/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61CAEF318F6061300CD9A84 /* my_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_face.png; sourceTree = "<group>"; };
 		C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _71H5096_1.jpg; sourceTree = "<group>"; };
 		C64B5BA618F35237006FC9C7 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		C64B5BA718F35237006FC9C7 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 		C67BC8EF18EE6F0F00B426A3 /* Time Flies */ = {
 			isa = PBXGroup;
 			children = (
+				C61CAEF318F6061300CD9A84 /* my_face.png */,
 				C61CAEE818F4E08E00CD9A84 /* up-128.png */,
 				E6F6B11D18A7E568002B3092 /* IJTViewController.h */,
 				E6F6B11E18A7E568002B3092 /* IJTViewController.m */,
@@ -542,6 +545,7 @@
 				C61CAEE318F4C36C00CD9A84 /* IMG_0351.png in Resources */,
 				C67BC8D518EE058D00B426A3 /* bobble.png in Resources */,
 				C6A558CC18F38631002FC33A /* user_male3-128.png in Resources */,
+				C61CAEF418F6061300CD9A84 /* my_face.png in Resources */,
 				C64B5BB918F36041006FC9C7 /* trophy-128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

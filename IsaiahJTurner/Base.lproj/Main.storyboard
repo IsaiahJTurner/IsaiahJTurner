@@ -185,7 +185,7 @@
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="instruct sailing at the" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Feo-hQ-98C">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="guide sailing at the" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Feo-hQ-98C">
                                 <rect key="frame" x="20" y="422" width="274" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="29"/>
@@ -208,7 +208,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="SXf-hO-Prp" kind="push" id="pbK-dM-H2n"/>
+                                    <action selector="olympicAction:" destination="Kcb-dJ-L5r" eventType="touchUpInside" id="npI-H3-2pr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="E7g-sW-jp8">
@@ -220,7 +220,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="f6K-CG-FAZ" kind="push" id="DY5-6d-3rr"/>
+                                    <action selector="sailAction:" destination="Kcb-dJ-L5r" eventType="touchUpInside" id="aRe-AF-Xu2"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="44N-IP-kwh">
@@ -232,7 +232,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="GIH-SW-RFj" kind="push" id="Kuj-DU-YtH"/>
+                                    <action selector="volunteerAction:" destination="Kcb-dJ-L5r" eventType="touchUpInside" id="I92-gI-fPm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="N3I-Gx-QU1">
@@ -269,72 +269,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8q-5B-NfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-146" y="-253"/>
-        </scene>
-        <!--View Controller - Volunteer Sailing Instructor-->
-        <scene sceneID="fSa-bJ-36c">
-            <objects>
-                <viewController id="GIH-SW-RFj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="D4w-js-8cF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" id="BUr-gz-gbY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Volunteer Sailing Instructor" id="Oon-gQ-KZa"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vu8-Hl-d2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="329" y="-432"/>
-        </scene>
-        <!--View Controller - Varsity High School Sailing-->
-        <scene sceneID="dcU-TZ-DOi">
-            <objects>
-                <viewController id="f6K-CG-FAZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="C7a-sE-Xbf">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" id="gyP-TH-Pgh">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Varsity High School Sailing" id="MJj-fX-ejv"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a7i-Bx-VaX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="755" y="-432"/>
-        </scene>
-        <!--View Controller - Special Olympics-->
-        <scene sceneID="mjy-Xi-VD9">
-            <objects>
-                <viewController id="SXf-hO-Prp" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="epZ-RB-eFU">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" id="Ga8-VP-tj8">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Special Olympics" id="HR1-3n-57i"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fTa-Mb-6Bv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1115" y="-732"/>
         </scene>
         <!--My Age View Controller - My Age-->
         <scene sceneID="Bvb-If-IDy">
@@ -507,10 +441,10 @@ My final request. Is there any way that Apple could release a count of how many 
                                         <rect key="frame" x="51" y="232" width="45" height="49"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xgX-HB-1A8">
+                                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xgX-HB-1A8">
                                                 <rect key="frame" x="0.0" y="0.0" width="45" height="49"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="bobble.png">
+                                                <state key="normal" image="my_face.png">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -823,7 +757,7 @@ developer in development.</string>
             </objects>
             <point key="canvasLocation" x="373" y="1109"/>
         </scene>
-        <!--My Website View Controller - Isaiah Turner's Website-->
+        <!--My Website View Controller - Loading...-->
         <scene sceneID="bjh-pt-qd1">
             <objects>
                 <viewController storyboardIdentifier="websiteVC" id="CW4-pB-AfW" customClass="IJTMyWebsiteViewController" sceneMemberID="viewController">
@@ -842,7 +776,7 @@ developer in development.</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Isaiah Turner's Website" id="lwt-z7-aS6">
+                    <navigationItem key="navigationItem" title="Loading..." id="lwt-z7-aS6">
                         <barButtonItem key="rightBarButtonItem" systemItem="action" id="edR-JE-hoa">
                             <connections>
                                 <action selector="viewActions:" destination="CW4-pB-AfW" id="fmp-17-FBd"/>
@@ -856,14 +790,14 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeS-sj-5TY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939" y="456"/>
+            <point key="canvasLocation" x="420" y="-273"/>
         </scene>
     </scenes>
     <resources>
         <image name="IMG_0351.png" width="960" height="1280"/>
-        <image name="bobble.png" width="40" height="49"/>
         <image name="clock-128.png" width="128" height="128"/>
         <image name="logo-2.png" width="496" height="97"/>
+        <image name="my_face.png" width="399" height="543"/>
         <image name="sail_boat-128.png" width="128" height="128"/>
         <image name="school-128.png" width="128" height="128"/>
         <image name="toolbox-128.png" width="128" height="128"/>

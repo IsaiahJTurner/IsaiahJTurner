@@ -12,5 +12,6 @@
 
 @interface IJTMyWebsiteViewController : UIViewController <UIWebViewDelegate, UIActionSheetDelegate, MFMailComposeViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIWebView *websiteView;
+@property (strong, nonatomic)  NSString *fullURL;
 
 @end

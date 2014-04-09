@@ -33,8 +33,8 @@
 }
 
 - (void)loadHomepage {
-    NSString *fullURL = @"http://isaiahjturner.com?ref=WWDCApp";
-    NSURL *url = [NSURL URLWithString:fullURL];
+   // self.fullURL = @"http://isaiahjturner.com?ref=WWDCApp";
+    NSURL *url = [NSURL URLWithString:self.fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [self.websiteView loadRequest:requestObj];
 }
