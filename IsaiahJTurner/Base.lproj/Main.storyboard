@@ -455,13 +455,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="634"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
+                                <string key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
 
 I wish I was not in school while I was working on this. Jony Ive would not be happy about my lack of blur, skeuomorphism (or is my lack of blur actually secretly skeuomorphism??? The more you know.) and parallax. I am however very proud of my first ever dark-themed app. If Jony sees this app, make sure to say sorry to him. I tried my best and put in over 50 hours of work. I made this because I love you: https://twitter.com/IsaiahJTurner/status/452182669242028032  
 
 Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (wether I am selected or not). I made this page, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship.   http://isaiahjturner.com/wwdc/
 
-My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</mutableString>
+My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -757,7 +757,7 @@ developer in development.</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="cHs-BD-sRF">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="426"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <mutableString key="text">Plain and simple, I LOVE my school. The teachers are awesome but it is the support I get from the Dean of Acedemics that truely causes me to love my school. After completing AP Computer Science (first semester as a sophomore no less), my school had no higher level courses to offer me in the field of Computer Science. My Computer Science teacher, Webmaster Palombi as we call him, supported my development and helped push for an Independent Technology Study. This makes me the only Sophomore at my school with an independent study. During this class period I prepare for the AP test and complete assignments under guidance of Mr. Palombi. It is great to finally be able to excell through development at the fast pace I am comfortable with.</mutableString>
+                                <string key="text">Plain and simple, I LOVE my school. The teachers are awesome but it is the support I get from the Dean of Acedemics that truely causes me to love my school. After completing AP Computer Science (first semester as a sophomore no less), my school had no higher level courses to offer me in the field of Computer Science. My Computer Science teacher, Webmaster Palombi as we call him, supported my development and helped push for an Independent Technology Study. This makes me the only Sophomore at my school with an independent study. During this class period I prepare for the AP test and complete assignments under guidance of Mr. Palombi. It is great to finally be able to excell through development at the fast pace I am comfortable with.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

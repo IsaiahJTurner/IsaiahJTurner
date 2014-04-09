@@ -11,6 +11,7 @@
 		C61CAEE718F4D3B000CD9A84 /* IJTSkillsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CAEE618F4D3B000CD9A84 /* IJTSkillsViewController.m */; };
 		C61CAEE918F4E08E00CD9A84 /* up-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEE818F4E08E00CD9A84 /* up-128.png */; };
 		C61CAEEB18F4ED3500CD9A84 /* logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEEA18F4ED3500CD9A84 /* logo-2.png */; };
+		C61CAEEF18F5F1A500CD9A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B11A18A7E568002B3092 /* Main.storyboard */; };
 		C64B5BA518F351D3006FC9C7 /* _71H5096_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */; };
 		C64B5BA818F35237006FC9C7 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BA718F35237006FC9C7 /* FXBlurView.m */; };
 		C64B5BAE18F356DB006FC9C7 /* ScaleBounceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BAD18F356DB006FC9C7 /* ScaleBounceController.m */; };
@@ -49,7 +50,6 @@
 		E6F6B11318A7E568002B3092 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B11118A7E568002B3092 /* InfoPlist.strings */; };
 		E6F6B11518A7E568002B3092 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B11418A7E568002B3092 /* main.m */; };
 		E6F6B11918A7E568002B3092 /* IJTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B11818A7E568002B3092 /* IJTAppDelegate.m */; };
-		E6F6B11C18A7E568002B3092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B11A18A7E568002B3092 /* Main.storyboard */; };
 		E6F6B11F18A7E568002B3092 /* IJTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6B11E18A7E568002B3092 /* IJTViewController.m */; };
 		E6F6B12118A7E568002B3092 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B12018A7E568002B3092 /* Images.xcassets */; };
 		E6F6B12818A7E568002B3092 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F6B12718A7E568002B3092 /* XCTest.framework */; };
@@ -75,6 +75,7 @@
 		C61CAEE618F4D3B000CD9A84 /* IJTSkillsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTSkillsViewController.m; sourceTree = "<group>"; };
 		C61CAEE818F4E08E00CD9A84 /* up-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-128.png"; sourceTree = "<group>"; };
 		C61CAEEA18F4ED3500CD9A84 /* logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-2.png"; sourceTree = "<group>"; };
+		C61CAEF118F5F1B500CD9A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IsaiahJTurner/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _71H5096_1.jpg; sourceTree = "<group>"; };
 		C64B5BA618F35237006FC9C7 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		C64B5BA718F35237006FC9C7 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
@@ -375,6 +376,7 @@
 		E6F6B0FC18A7E568002B3092 = {
 			isa = PBXGroup;
 			children = (
+				C61CAEF018F5F1B500CD9A84 /* Main.storyboard */,
 				E6F6B10E18A7E568002B3092 /* IsaiahJTurner */,
 				E6F6B12D18A7E568002B3092 /* FlappyBlockTests */,
 				E6F6B10718A7E568002B3092 /* Frameworks */,
@@ -434,7 +436,8 @@
 				E6F6B13318A7E568002B3092 /* FlappyBlockTests.m */,
 				E6F6B12E18A7E568002B3092 /* Supporting Files */,
 			);
-			path = FlappyBlockTests;
+			name = FlappyBlockTests;
+			path = IsaiahJTurnerTests;
 			sourceTree = "<group>";
 		};
 		E6F6B12E18A7E568002B3092 /* Supporting Files */ = {
@@ -529,13 +532,13 @@
 				C61CAEEB18F4ED3500CD9A84 /* logo-2.png in Resources */,
 				C64B5BB718F36023006FC9C7 /* stack_of_photos-128.png in Resources */,
 				C6A558CA18F385C4002FC33A /* sail_boat-128.png in Resources */,
+				C61CAEEF18F5F1A500CD9A84 /* Main.storyboard in Resources */,
 				C64B5BCE18F36114006FC9C7 /* toolbox-128.png in Resources */,
 				C64B5BB318F35FC0006FC9C7 /* clock-128.png in Resources */,
 				C64B5BA518F351D3006FC9C7 /* _71H5096_1.jpg in Resources */,
 				E6F6B11318A7E568002B3092 /* InfoPlist.strings in Resources */,
 				C67BC8F918EE721000B426A3 /* 1483631_571364619598923_1123829356_o.jpg in Resources */,
 				C61CAEE918F4E08E00CD9A84 /* up-128.png in Resources */,
-				E6F6B11C18A7E568002B3092 /* Main.storyboard in Resources */,
 				C61CAEE318F4C36C00CD9A84 /* IMG_0351.png in Resources */,
 				C67BC8D518EE058D00B426A3 /* bobble.png in Resources */,
 				C6A558CC18F38631002FC33A /* user_male3-128.png in Resources */,
@@ -603,6 +606,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C61CAEF018F5F1B500CD9A84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61CAEF118F5F1B500CD9A84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E6F6B11118A7E568002B3092 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -706,8 +717,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBlock/IsaiahJTurner-Prefix.pch";
-				INFOPLIST_FILE = "FlappyBlock/IsaiahJTurner-Info.plist";
+				GCC_PREFIX_HEADER = "IsaiahJTurner/IsaiahJTurner-Prefix.pch";
+				INFOPLIST_FILE = "IsaiahJTurner/IsaiahJTurner-Info.plist";
 				PRODUCT_NAME = IsaiahJTurner;
 				WRAPPER_EXTENSION = app;
 			};
@@ -719,8 +730,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBlock/IsaiahJTurner-Prefix.pch";
-				INFOPLIST_FILE = "FlappyBlock/IsaiahJTurner-Info.plist";
+				GCC_PREFIX_HEADER = "IsaiahJTurner/IsaiahJTurner-Prefix.pch";
+				INFOPLIST_FILE = "IsaiahJTurner/IsaiahJTurner-Info.plist";
 				PRODUCT_NAME = IsaiahJTurner;
 				WRAPPER_EXTENSION = app;
 			};
@@ -729,19 +740,19 @@
 		E6F6B13B18A7E568002B3092 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyBlock.app/FlappyBlock";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IsaiahJTurner.app/IsaiahJTurner";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBlock/FlappyBlock-Prefix.pch";
+				GCC_PREFIX_HEADER = "IsaiahJTurner/IsaiahJTurner-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "FlappyBlockTests/IsaiahJTurnerTests-Info.plist";
+				INFOPLIST_FILE = "IsaiahJTurnerTests/IsaiahJTurnerTests-Info.plist";
 				PRODUCT_NAME = IsaiahJTurnerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -751,15 +762,15 @@
 		E6F6B13C18A7E568002B3092 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlappyBlock.app/FlappyBlock";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IsaiahJTurner.app/IsaiahJTurner";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FlappyBlock/FlappyBlock-Prefix.pch";
-				INFOPLIST_FILE = "FlappyBlockTests/IsaiahJTurnerTests-Info.plist";
+				GCC_PREFIX_HEADER = "IsaiahJTurner/IsaiahJTurner-Prefix.pch";
+				INFOPLIST_FILE = "IsaiahJTurnerTests/IsaiahJTurnerTests-Info.plist";
 				PRODUCT_NAME = IsaiahJTurnerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
