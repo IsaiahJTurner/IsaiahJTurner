@@ -129,11 +129,13 @@
     self.score = self.score + 1;
     NSLog(@"%d",self.score);
     IJTLifeEventsDataSource *events = [[IJTLifeEventsDataSource alloc] init];
-    if ([[events allEvents] count] >= self.score) {
+    if ([[events allEvents] count] <= self.score) {
         // Diplay no more events.
     } else {
         IJTLifeEventObject *event = [events retrieveEvent:self.score];
         NSLog(@"%@", [event getDetails]);
+        bottomView.contentView.dateLabel.text = [event getDate];
+        bottomView.contentView.descriptionLabel.text = [event getDetails];
     }
     lastYOffset = lastYOffset +  (arc4random_uniform(3)*40) * myRandom();
     lastYOffset = (lastYOffset < -200)?-200:lastYOffset;

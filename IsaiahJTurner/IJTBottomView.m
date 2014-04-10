@@ -17,7 +17,8 @@
         self.backgroundColor = [UIColor redColor];
         UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         UIViewController *vc = [mainStoryboard instantiateViewControllerWithIdentifier:@"infoView"];
-        self.contentView = vc.view;
+        IJTBottomViewEditable *view = vc.view;
+        self.contentView = view;
         [self addSubview:self.contentView];
         [self bringSubviewToFront:handleView];
 

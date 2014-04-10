@@ -41,6 +41,10 @@
     self.myFace.layer.borderWidth=1.0f;
     self.myFace.layer.cornerRadius =  self.myFace.frame.size.width / 2;
     self.myFace.clipsToBounds = YES;
+    UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(randomFact)];
+    [tapGestureRecognizer setDelegate:self];
+    [self.myFace addGestureRecognizer:tapGestureRecognizer];
+    
     self.navigationController.navigationBar.tintColor = [UIColor colorWithRed:104.0/255.0 green:204.0/255.0 blue:92.0/255.0 alpha:1];
     self.navigationController.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName:[UIColor colorWithRed:102.0/255.0 green:102.0/255.0 blue:102./255.0 alpha:1]};
     self.navigationController.navigationBar.barStyle = UIBarStyleBlackOpaque;
@@ -59,6 +63,69 @@
     self.myFace.frame = CGRectMake(160, 364, 60, 60);
     self.myFace.center = CGPointMake(160, 364);
     self.blurView.blurRadius = 0;
+}
+
+- (void)randomFact {
+    PXAlertView *alert;
+    int r = rand() % 5;
+    switch (r) {
+        case 1:
+            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+                                                         message:@"I don't actually know how to code. I just bang my head on the keyboard until it works."
+                                                     cancelTitle:@"Oh damn."
+                                                      completion:^(BOOL cancelled, NSInteger buttonIndex) {
+                                                      }];
+            break;
+        case 2:
+            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+                                            message:@"I got 99 problems and Xcode ain't 1."
+                                        cancelTitle:@"Thanks!"
+                                         completion:^(BOOL cancelled, NSInteger buttonIndex) {
+                                         }];
+            break;
+        case 3:
+            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+                                            message:@"PGP Enryption is the future! Check out Keybase, I am building an iOS client for it."
+                                        cancelTitle:@"Naaa..."
+                                        otherTitle:@"Fo sure!"
+                                         completion:^(BOOL cancelled, NSInteger buttonIndex) {
+                                             if (!cancelled) {
+                                                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://keybase.io/it"]];
+                                             }
+                                         }];
+            break;
+        case 4:
+            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+                                            message:@"My awesome portfolio can be found on my website. Check it out!"
+                                        cancelTitle:@"Swirve."
+                                         otherTitle:@"Let me see!"
+                                         completion:^(BOOL cancelled, NSInteger buttonIndex) {
+                                             if (cancelled) {
+                                                #warning comedic code
+                                                 NSLog(@"Apple reviewer swirved me :(");
+                                             } else {
+                                                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://isaiahjturner.com/portfolio"]];
+                                             }
+                                         }];
+            break;
+        default:
+            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+                                            message:@"I have a pretty chillaxing website. Check it out!"
+                                        cancelTitle:@"NO!"
+                                         otherTitle:@"Oh, Cool!"
+                                         completion:^(BOOL cancelled, NSInteger buttonIndex) {
+                                             if (cancelled) {
+                                                #warning comedic code
+                                                 NSLog(@"Apple reviewer hates me :(");
+                                             } else {
+                                                 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://isaiahjturner.com/"]];
+                                             }
+                                         }];
+            break;
+    }
+    [alert setCancelButtonBackgroundColor:[UIColor colorWithRed:104.0/255.0 green:204.0/255.0 blue:92.0/255.0 alpha:1]];
+    [alert setOtherButtonBackgroundColor:[UIColor colorWithRed:104.0/255.0 green:204.0/255.0 blue:92.0/255.0 alpha:1]];
+
 }
 
 -(void)viewDidAppear:(BOOL)animated {

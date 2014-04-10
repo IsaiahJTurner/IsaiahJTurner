@@ -13,6 +13,10 @@
 		C61CAEEB18F4ED3500CD9A84 /* logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEEA18F4ED3500CD9A84 /* logo-2.png */; };
 		C61CAEEF18F5F1A500CD9A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F6B11A18A7E568002B3092 /* Main.storyboard */; };
 		C61CAEF418F6061300CD9A84 /* my_face.png in Resources */ = {isa = PBXBuildFile; fileRef = C61CAEF318F6061300CD9A84 /* my_face.png */; };
+		C61CAEF718F60BC000CD9A84 /* IJTBottomViewEditable.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CAEF618F60BC000CD9A84 /* IJTBottomViewEditable.m */; };
+		C61CAF3218F61C1700CD9A84 /* PXAlertView+Customization.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CAF2F18F61C1700CD9A84 /* PXAlertView+Customization.m */; };
+		C61CAF3318F61C1700CD9A84 /* PXAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CAF3118F61C1700CD9A84 /* PXAlertView.m */; };
+		C61CAF3718F620C800CD9A84 /* IJTEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CAF3618F620C800CD9A84 /* IJTEducationViewController.m */; };
 		C64B5BA518F351D3006FC9C7 /* _71H5096_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */; };
 		C64B5BA818F35237006FC9C7 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BA718F35237006FC9C7 /* FXBlurView.m */; };
 		C64B5BAE18F356DB006FC9C7 /* ScaleBounceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64B5BAD18F356DB006FC9C7 /* ScaleBounceController.m */; };
@@ -29,7 +33,6 @@
 		C67BC8E318EE259300B426A3 /* IJTMyWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BC8E218EE259300B426A3 /* IJTMyWebsiteViewController.m */; };
 		C67BC8E618EE371D00B426A3 /* IJTLifeEventsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BC8E518EE371D00B426A3 /* IJTLifeEventsDataSource.m */; };
 		C67BC8E918EE388A00B426A3 /* IJTLifeEventObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BC8E818EE388A00B426A3 /* IJTLifeEventObject.m */; };
-		C67BC8EC18EE3EFA00B426A3 /* IJTBottomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BC8EB18EE3EFA00B426A3 /* IJTBottomViewController.m */; };
 		C67BC8F918EE721000B426A3 /* 1483631_571364619598923_1123829356_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C67BC8F818EE721000B426A3 /* 1483631_571364619598923_1123829356_o.jpg */; };
 		C67BC8FC18EF4EBE00B426A3 /* IJTUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C67BC8FB18EF4EBE00B426A3 /* IJTUnlockViewController.m */; };
 		C6A558CA18F385C4002FC33A /* sail_boat-128.png in Resources */ = {isa = PBXBuildFile; fileRef = C6A558C918F385C4002FC33A /* sail_boat-128.png */; };
@@ -78,6 +81,14 @@
 		C61CAEEA18F4ED3500CD9A84 /* logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-2.png"; sourceTree = "<group>"; };
 		C61CAEF118F5F1B500CD9A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IsaiahJTurner/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C61CAEF318F6061300CD9A84 /* my_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = my_face.png; sourceTree = "<group>"; };
+		C61CAEF518F60BC000CD9A84 /* IJTBottomViewEditable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTBottomViewEditable.h; sourceTree = "<group>"; };
+		C61CAEF618F60BC000CD9A84 /* IJTBottomViewEditable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTBottomViewEditable.m; sourceTree = "<group>"; };
+		C61CAF2E18F61C1700CD9A84 /* PXAlertView+Customization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXAlertView+Customization.h"; sourceTree = "<group>"; };
+		C61CAF2F18F61C1700CD9A84 /* PXAlertView+Customization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXAlertView+Customization.m"; sourceTree = "<group>"; };
+		C61CAF3018F61C1700CD9A84 /* PXAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXAlertView.h; sourceTree = "<group>"; };
+		C61CAF3118F61C1700CD9A84 /* PXAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXAlertView.m; sourceTree = "<group>"; };
+		C61CAF3518F620C800CD9A84 /* IJTEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTEducationViewController.h; sourceTree = "<group>"; };
+		C61CAF3618F620C800CD9A84 /* IJTEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTEducationViewController.m; sourceTree = "<group>"; };
 		C64B5BA418F351D3006FC9C7 /* _71H5096_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = _71H5096_1.jpg; sourceTree = "<group>"; };
 		C64B5BA618F35237006FC9C7 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
 		C64B5BA718F35237006FC9C7 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
@@ -102,8 +113,6 @@
 		C67BC8E518EE371D00B426A3 /* IJTLifeEventsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTLifeEventsDataSource.m; sourceTree = "<group>"; };
 		C67BC8E718EE388A00B426A3 /* IJTLifeEventObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTLifeEventObject.h; sourceTree = "<group>"; };
 		C67BC8E818EE388A00B426A3 /* IJTLifeEventObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTLifeEventObject.m; sourceTree = "<group>"; };
-		C67BC8EA18EE3EFA00B426A3 /* IJTBottomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTBottomViewController.h; sourceTree = "<group>"; };
-		C67BC8EB18EE3EFA00B426A3 /* IJTBottomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTBottomViewController.m; sourceTree = "<group>"; };
 		C67BC8F818EE721000B426A3 /* 1483631_571364619598923_1123829356_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1483631_571364619598923_1123829356_o.jpg; sourceTree = "<group>"; };
 		C67BC8FA18EF4EBE00B426A3 /* IJTUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTUnlockViewController.h; sourceTree = "<group>"; };
 		C67BC8FB18EF4EBE00B426A3 /* IJTUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTUnlockViewController.m; sourceTree = "<group>"; };
@@ -185,6 +194,27 @@
 			name = Skills;
 			sourceTree = "<group>";
 		};
+		C61CAF2D18F61C1700CD9A84 /* PXAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C61CAF2E18F61C1700CD9A84 /* PXAlertView+Customization.h */,
+				C61CAF2F18F61C1700CD9A84 /* PXAlertView+Customization.m */,
+				C61CAF3018F61C1700CD9A84 /* PXAlertView.h */,
+				C61CAF3118F61C1700CD9A84 /* PXAlertView.m */,
+			);
+			name = PXAlertView;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C61CAF3418F620AB00CD9A84 /* Edumication */ = {
+			isa = PBXGroup;
+			children = (
+				C61CAF3518F620C800CD9A84 /* IJTEducationViewController.h */,
+				C61CAF3618F620C800CD9A84 /* IJTEducationViewController.m */,
+			);
+			name = Edumication;
+			sourceTree = "<group>";
+		};
 		C64B5BAB18F356C7006FC9C7 /* SKBounceAnimation */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +238,7 @@
 		C67BC8D618EE0C9900B426A3 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C61CAF2D18F61C1700CD9A84 /* PXAlertView */,
 				C6E4773018F4B0D600C15565 /* TWRProgressView */,
 				C64B5BAB18F356C7006FC9C7 /* SKBounceAnimation */,
 				C67BC8F418EE6FA100B426A3 /* FXBlurView */,
@@ -228,6 +259,7 @@
 		C67BC8ED18EE6EF400B426A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C61CAF3418F620AB00CD9A84 /* Edumication */,
 				C61CAEEA18F4ED3500CD9A84 /* logo-2.png */,
 				C61CAEE418F4D39D00CD9A84 /* Skills */,
 				C6E4772C18F4B07D00C15565 /* Interests */,
@@ -269,10 +301,10 @@
 				C67BC8E518EE371D00B426A3 /* IJTLifeEventsDataSource.m */,
 				C67BC8E718EE388A00B426A3 /* IJTLifeEventObject.h */,
 				C67BC8E818EE388A00B426A3 /* IJTLifeEventObject.m */,
-				C67BC8EA18EE3EFA00B426A3 /* IJTBottomViewController.h */,
-				C67BC8EB18EE3EFA00B426A3 /* IJTBottomViewController.m */,
 				C67BC8DE18EE11CF00B426A3 /* IJTBottomView.h */,
 				C67BC8DF18EE11CF00B426A3 /* IJTBottomView.m */,
+				C61CAEF518F60BC000CD9A84 /* IJTBottomViewEditable.h */,
+				C61CAEF618F60BC000CD9A84 /* IJTBottomViewEditable.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -565,11 +597,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61CAEF718F60BC000CD9A84 /* IJTBottomViewEditable.m in Sources */,
 				C6A558D018F39A8C002FC33A /* IJTAboutMeViewController.m in Sources */,
 				C6A558DD18F49120002FC33A /* IJTSailingInstructorViewController.m in Sources */,
 				C67BC8E018EE11CF00B426A3 /* IJTBottomView.m in Sources */,
 				E6F6B11918A7E568002B3092 /* IJTAppDelegate.m in Sources */,
 				C67BC8E618EE371D00B426A3 /* IJTLifeEventsDataSource.m in Sources */,
+				C61CAF3318F61C1700CD9A84 /* PXAlertView.m in Sources */,
 				C6A558D718F490F3002FC33A /* IJTSpecialOlympicsViewController.m in Sources */,
 				C6A558E018F4913F002FC33A /* IJTVarsitySailingViewController.m in Sources */,
 				C61CAEE718F4D3B000CD9A84 /* IJTSkillsViewController.m in Sources */,
@@ -577,12 +611,13 @@
 				C64B5BA818F35237006FC9C7 /* FXBlurView.m in Sources */,
 				C64B5BB118F356E9006FC9C7 /* SKBounceAnimation.m in Sources */,
 				C67BC8FC18EF4EBE00B426A3 /* IJTUnlockViewController.m in Sources */,
+				C61CAF3218F61C1700CD9A84 /* PXAlertView+Customization.m in Sources */,
+				C61CAF3718F620C800CD9A84 /* IJTEducationViewController.m in Sources */,
 				E6F6B11F18A7E568002B3092 /* IJTViewController.m in Sources */,
 				C6E4772F18F4B09500C15565 /* IJTInterestsViewController.m in Sources */,
 				C67BC8E318EE259300B426A3 /* IJTMyWebsiteViewController.m in Sources */,
 				E6F6B11518A7E568002B3092 /* main.m in Sources */,
 				C6A558DA18F49102002FC33A /* IJTMyAgeViewController.m in Sources */,
-				C67BC8EC18EE3EFA00B426A3 /* IJTBottomViewController.m in Sources */,
 				C6E4772B18F49D8000C15565 /* IJTMapViewAnnotation.m in Sources */,
 				C64B5BAE18F356DB006FC9C7 /* ScaleBounceController.m in Sources */,
 				C6A558D418F490C7002FC33A /* IJTMyLocationViewController.m in Sources */,

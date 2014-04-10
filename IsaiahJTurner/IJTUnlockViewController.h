@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "FXBlurView.h"
 #import "ScaleBounceController.h"
+#import "PXAlertView.h"
+#import "PXAlertView+Customization.h"
 
-@interface IJTUnlockViewController : UIViewController
+@interface IJTUnlockViewController : UIViewController <UIGestureRecognizerDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (nonatomic, weak) IBOutlet FXBlurView *blurView;
 @property (strong, nonatomic) IBOutlet UIImageView *myFace;

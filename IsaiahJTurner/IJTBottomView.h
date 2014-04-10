@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "PullableView.h"
+#import "IJTBottomViewEditable.h"
 
 @interface IJTBottomView : PullableView
-@property (nonatomic, strong) UIView *contentView;
+@property (nonatomic, strong) IJTBottomViewEditable *contentView;
+
 - (void)enableGestures;
 - (void)disableGestures;
 @end

@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqr-hc-mXF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-879" y="254"/>
+            <point key="canvasLocation" x="-2303" y="146"/>
         </scene>
         <!--Skills View Controller - My Skills-->
         <scene sceneID="ghq-Gh-g3R">
@@ -126,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFl-hk-g14" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-871" y="-437"/>
+            <point key="canvasLocation" x="-1079" y="-973"/>
         </scene>
         <!--About Me View Controller - About Me-->
         <scene sceneID="fny-Tv-4Ub">
@@ -268,7 +268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8q-5B-NfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-146" y="-253"/>
+            <point key="canvasLocation" x="-162" y="-1237"/>
         </scene>
         <!--My Age View Controller - My Age-->
         <scene sceneID="Bvb-If-IDy">
@@ -350,7 +350,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8x-pJ-GD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="329" y="-1090"/>
+            <point key="canvasLocation" x="17" y="-2154"/>
         </scene>
         <!--My Location View Controller - Tall Timbers, Maryland-->
         <scene sceneID="BCg-41-Ick">
@@ -375,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o1g-6h-TQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755" y="-1090"/>
+            <point key="canvasLocation" x="-557" y="-2218"/>
         </scene>
         <!--View Controller - Not an Essay-->
         <scene sceneID="LAs-k8-TYz">
@@ -409,7 +409,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcU-z0-H7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-770" y="348"/>
+            <point key="canvasLocation" x="-1530" y="-52"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -424,11 +424,11 @@ My final request. Is there any way that Apple could release a count of how many 
                                 <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" id="cuy-AA-lVX">
-                                        <rect key="frame" x="0.0" y="515" width="320" height="53"/>
+                                        <rect key="frame" x="0.0" y="504" width="320" height="64"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe up for more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qCH-4b-s8T">
-                                                <rect key="frame" x="20" y="16" width="280" height="21"/>
+                                                <rect key="frame" x="20" y="21" width="280" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -474,7 +474,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5" y="1109"/>
+            <point key="canvasLocation" x="637" y="165"/>
         </scene>
         <!--Interests View Controller - Interests-->
         <scene sceneID="KCW-pN-tlk">
@@ -516,7 +516,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bsh-Im-wiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-770" y="994"/>
+            <point key="canvasLocation" x="-1114" y="986"/>
         </scene>
         <!--View Controller - Achievements-->
         <scene sceneID="4VF-dp-eSZ">
@@ -541,7 +541,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL6-jD-c9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-404" y="1120"/>
+            <point key="canvasLocation" x="380" y="1064"/>
         </scene>
         <!--Unlock View Controller-->
         <scene sceneID="kef-86-r2Q">
@@ -644,7 +644,7 @@ developer in development.</string>
                                     </button>
                                 </subviews>
                             </view>
-                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0351.png" id="6l5-nm-lh9">
+                            <imageView autoresizesSubviews="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0351.png" id="6l5-nm-lh9">
                                 <rect key="frame" x="130" y="334" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
@@ -667,12 +667,12 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdp-bJ-2eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-377" y="466"/>
+            <point key="canvasLocation" x="-265" y="146"/>
         </scene>
-        <!--View Controller - Education-->
+        <!--Education View Controller - Education-->
         <scene sceneID="mf0-TP-BQa">
             <objects>
-                <viewController id="xZX-NC-NuH" sceneMemberID="viewController">
+                <viewController id="xZX-NC-NuH" customClass="IJTEducationViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h00-VQ-13o">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -701,28 +701,31 @@ developer in development.</string>
                     </view>
                     <navigationItem key="navigationItem" title="Education" id="ryE-33-LHL"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="logoView" destination="qqm-b1-i9f" id="b2x-fA-phI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ia-oQ-95O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="395" y="391"/>
+            <point key="canvasLocation" x="445" y="-948"/>
         </scene>
-        <!--Bottom View Controller-->
+        <!--View Controller-->
         <scene sceneID="2JV-Rs-AqO">
             <objects>
-                <viewController storyboardIdentifier="infoView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CqJ-wc-ttD" customClass="IJTBottomViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="V7b-x4-W2a">
+                <viewController storyboardIdentifier="infoView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CqJ-wc-ttD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V7b-x4-W2a" customClass="IJTBottomViewEditable">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="The day it all began. I was born in..." selectable="NO" id="MNm-jC-xKP">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="You know when mommy and daddy kiss and then I come out 9 months later..." id="MNm-jC-xKP">
                                 <rect key="frame" x="0.0" y="71" width="320" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.58823529411764708" green="0.58823529411764708" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="August 7, 1998" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tmy-Yx-gjS">
-                                <rect key="frame" x="20" y="42" width="280" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Special Kiss 0_o" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tmy-Yx-gjS">
+                                <rect key="frame" x="20" y="40" width="280" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="18"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -746,16 +749,16 @@ developer in development.</string>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="dateLabel" destination="tmy-Yx-gjS" id="JJa-DM-xfl"/>
+                            <outlet property="descriptionLabel" destination="MNm-jC-xKP" id="oGq-QN-TEg"/>
+                        </connections>
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
-                    <connections>
-                        <outlet property="dateLabel" destination="tmy-Yx-gjS" id="IkJ-Kl-Fp1"/>
-                        <outlet property="descriptionText" destination="MNm-jC-xKP" id="Rrj-bP-4TE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eyu-uD-8Y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="373" y="1109"/>
+            <point key="canvasLocation" x="1157" y="173"/>
         </scene>
         <!--My Website View Controller - Loading...-->
         <scene sceneID="bjh-pt-qd1">
@@ -790,7 +793,7 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeS-sj-5TY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="420" y="-273"/>
+            <point key="canvasLocation" x="545" y="-2281"/>
         </scene>
     </scenes>
     <resources>
