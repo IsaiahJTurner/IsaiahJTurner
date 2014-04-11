@@ -15,5 +15,6 @@
 @property (strong, nonatomic) IBOutlet UIView *sky;
 @property (strong, nonatomic) IBOutlet UIView *outerSpace;
 @property (nonatomic) int score;
+@property (strong, nonatomic) IBOutlet UITextView *instructionsLabel;
 
 @end

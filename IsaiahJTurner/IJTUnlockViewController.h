@@ -16,14 +16,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *backgroundImage;
 @property (nonatomic, weak) IBOutlet FXBlurView *blurView;
 @property (strong, nonatomic) IBOutlet UIImageView *myFace;
-@property (strong, nonatomic) IBOutlet UIButton *aboutButton;
-@property (strong, nonatomic) IBOutlet UIButton *awardsButton;
-@property (strong, nonatomic) IBOutlet UIButton *timelineButton;
-@property (strong, nonatomic) IBOutlet UIButton *educationButton;
-@property (strong, nonatomic) IBOutlet UIButton *interestsButton;
-@property (strong, nonatomic) IBOutlet UIButton *skillsButton;
-@property (strong, nonatomic) NSArray *allButtons;
 @property (nonatomic) BOOL big;
 @property (strong, nonatomic) IBOutlet UIView *buttonsView;
+@property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *buttonLabels;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *allButtons;
 
 @end

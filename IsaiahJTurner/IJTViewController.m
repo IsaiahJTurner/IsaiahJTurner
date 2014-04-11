@@ -105,7 +105,7 @@
 
 - (void) handleSingleTapGesture:(UITapGestureRecognizer *)gestureRecognizer {
     if (!firstFlap) {
-        // Block gravity
+        self.instructionsLabel.hidden = YES;
         gravity = [[UIGravityBehavior alloc] initWithItems:@[self.block]];
         gravity.magnitude = 1.1;
         [blockAnimator addBehavior:gravity];
@@ -118,6 +118,7 @@
     // Reset the velocity
     CGPoint v = [blockDynamicProperties linearVelocityForItem:self.block];
     v.y = -v.y;
+    NSLog(@"%f,%f",v.x,v.y);
     [blockDynamicProperties addLinearVelocity:v forItem:self.block];
     
     [flapUp setActive:YES];
@@ -207,7 +208,7 @@ int myRandom() {
 - (void)pullableView:(PullableView *)pView didChangeState:(BOOL)opened {
     if (opened) {
         //[bottomView enableGestures];
-        self.title = @"August 7, 1998";
+        self.title = bottomView.contentView.dateLabel.text;
         [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
     } else {
         self.title = @"Time Flies";

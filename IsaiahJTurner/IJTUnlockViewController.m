@@ -28,17 +28,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.buttonsView.frame = CGRectMake(self.buttonsView.frame.origin.x, self.buttonsView.frame.origin.y, self.buttonsView.frame.size.width / 2, self.buttonsView.frame.size.height / 2);
+    self.buttonsView.center = CGPointMake(160, 346);
     self.big = false;
     self.navigationController.navigationBar.hidden = NO;
-    self.allButtons = [[NSArray alloc] initWithObjects:self.awardsButton, self.timelineButton, self.aboutButton, self.educationButton, self.interestsButton, self.skillsButton, nil];
     for (UIButton *button in self.allButtons) {
         button.layer.cornerRadius = button.frame.size.width / 2;
         button.clipsToBounds = YES;
         button.layer.borderColor=[UIColor colorWithRed:104.0/255.0 green:204.0/255.0 blue:92.0/255.0 alpha:1].CGColor;
-        button.layer.borderWidth=1.0f;
+        button.layer.borderWidth=0.5f;
     }
     self.myFace.layer.borderColor=[UIColor colorWithRed:102.0/255.0 green:102.0/255.0 blue:102./255.0 alpha:1].CGColor;
-    self.myFace.layer.borderWidth=1.0f;
+    self.myFace.layer.borderWidth=0.5f;
     self.myFace.layer.cornerRadius =  self.myFace.frame.size.width / 2;
     self.myFace.clipsToBounds = YES;
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(randomFact)];
@@ -60,8 +61,8 @@
     for (UIButton *button in self.allButtons) {
         [button.layer removeAllAnimations];
     }
-    self.myFace.frame = CGRectMake(160, 364, 60, 60);
-    self.myFace.center = CGPointMake(160, 364);
+    self.myFace.frame = CGRectMake(160, 341, 60, 60);
+    self.myFace.center = CGPointMake(160, 341);
     self.blurView.blurRadius = 0;
 }
 
@@ -70,21 +71,21 @@
     int r = rand() % 5;
     switch (r) {
         case 1:
-            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+            alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
                                                          message:@"I don't actually know how to code. I just bang my head on the keyboard until it works."
                                                      cancelTitle:@"Oh damn."
                                                       completion:^(BOOL cancelled, NSInteger buttonIndex) {
                                                       }];
             break;
         case 2:
-            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+            alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
                                             message:@"I got 99 problems and Xcode ain't 1."
                                         cancelTitle:@"Thanks!"
                                          completion:^(BOOL cancelled, NSInteger buttonIndex) {
                                          }];
             break;
         case 3:
-            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+            alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
                                             message:@"PGP Enryption is the future! Check out Keybase, I am building an iOS client for it."
                                         cancelTitle:@"Naaa..."
                                         otherTitle:@"Fo sure!"
@@ -95,7 +96,7 @@
                                          }];
             break;
         case 4:
-            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+            alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
                                             message:@"My awesome portfolio can be found on my website. Check it out!"
                                         cancelTitle:@"Swirve."
                                          otherTitle:@"Let me see!"
@@ -109,7 +110,7 @@
                                          }];
             break;
         default:
-            alert = [PXAlertView showAlertWithTitle:@"rand() % 5 Fact"
+            alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
                                             message:@"I have a pretty chillaxing website. Check it out!"
                                         cancelTitle:@"NO!"
                                          otherTitle:@"Oh, Cool!"
@@ -129,6 +130,7 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     if (!self.big) {
   [self bounceMyFace];
   [self performSelector:@selector(moveButtonsIntoPlace) withObject:nil afterDelay:0.6];
@@ -136,6 +138,9 @@
     }
 }
 
+-(void)viewWillDisappear:(BOOL)animated {
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 
 - (void) bounceMyFace {
 	NSString *keyPath = @"transform";
