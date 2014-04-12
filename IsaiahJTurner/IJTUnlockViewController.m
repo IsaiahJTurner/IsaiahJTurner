@@ -38,6 +38,12 @@
         button.layer.borderColor=[UIColor colorWithRed:104.0/255.0 green:204.0/255.0 blue:92.0/255.0 alpha:1].CGColor;
         button.layer.borderWidth=0.5f;
     }
+    
+    for (UILabel *label in self.buttonLabels) {
+        label.alpha = 0;
+            label.frame = CGRectMake(label.frame.origin.x, label.frame.origin.y - 20, label.frame.size.width, label.frame.size.height);
+    }
+    
     self.myFace.layer.borderColor=[UIColor colorWithRed:102.0/255.0 green:102.0/255.0 blue:102./255.0 alpha:1].CGColor;
     self.myFace.layer.borderWidth=0.5f;
     self.myFace.layer.cornerRadius =  self.myFace.frame.size.width / 2;
@@ -86,7 +92,7 @@
             break;
         case 3:
             alert = [PXAlertView showAlertWithTitle:@"rand() Fact"
-                                            message:@"PGP Enryption is the future! Check out Keybase, I am building an iOS client for it."
+                                            message:@"PGP Enryption is the future! Check out Keybase, I am building an almost finished building an iOS client for it."
                                         cancelTitle:@"Naaa..."
                                         otherTitle:@"Fo sure!"
                                          completion:^(BOOL cancelled, NSInteger buttonIndex) {
@@ -132,9 +138,21 @@
 -(void)viewDidAppear:(BOOL)animated {
     [self.navigationController setNavigationBarHidden:YES animated:YES];
     if (!self.big) {
-  [self bounceMyFace];
-  [self performSelector:@selector(moveButtonsIntoPlace) withObject:nil afterDelay:0.6];
+        [self bounceMyFace];
+        [self performSelector:@selector(moveButtonsIntoPlace) withObject:nil afterDelay:0.6];
+        [self performSelector:@selector(showLabels) withObject:nil afterDelay:1.0];
+        
         self.big = TRUE;
+    }
+}
+
+- (void)showLabels {
+    for (UILabel *label in self.buttonLabels) {
+        CGRect endFrame = CGRectMake(label.frame.origin.x, label.frame.origin.y + 20, label.frame.size.width, label.frame.size.height);
+        [UIView animateWithDuration:0.5 animations:^{
+            label.frame = endFrame;
+            label.alpha = 1;
+        }];
     }
 }
 

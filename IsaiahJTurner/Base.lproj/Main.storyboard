@@ -17,7 +17,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xqr-hc-mXF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2303" y="146"/>
+            <point key="canvasLocation" x="-2407" y="-14"/>
         </scene>
         <!--Skills View Controller - My Skills-->
         <scene sceneID="ghq-Gh-g3R">
@@ -126,7 +126,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CFl-hk-g14" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1079" y="-973"/>
+            <point key="canvasLocation" x="-882" y="-908"/>
         </scene>
         <!--About Me View Controller - About Me-->
         <scene sceneID="fny-Tv-4Ub">
@@ -268,7 +268,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8q-5B-NfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-162" y="-1237"/>
+            <point key="canvasLocation" x="-194" y="-1357"/>
         </scene>
         <!--My Age View Controller - My Age-->
         <scene sceneID="Bvb-If-IDy">
@@ -350,7 +350,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J8x-pJ-GD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="17" y="-2154"/>
+            <point key="canvasLocation" x="-15" y="-2274"/>
         </scene>
         <!--My Location View Controller - Tall Timbers, Maryland-->
         <scene sceneID="BCg-41-Ick">
@@ -375,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o1g-6h-TQG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-557" y="-2218"/>
+            <point key="canvasLocation" x="-589" y="-2338"/>
         </scene>
         <!--View Controller - Not an Essay-->
         <scene sceneID="LAs-k8-TYz">
@@ -386,16 +386,16 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" id="xdP-Yl-3va">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="634"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="601"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
+                                <mutableString key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
 
 I wish I was not in school while I was working on this. Jony Ive would not be happy about my lack of blur, skeuomorphism (or is my lack of blur actually secretly skeuomorphism??? The more you know.) and parallax. I am however very proud of my first ever dark-themed app. If Jony sees this app, make sure to say sorry to him. I tried my best and put in over 50 hours of work. I made this because I love you: https://twitter.com/IsaiahJTurner/status/452182669242028032  
 
-Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (wether I am selected or not). I made this page, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship.   http://isaiahjturner.com/wwdc/
+Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (whether I am selected or not). I made this page, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship.
 
-My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</string>
+My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea. I made a super simple feedback from for this app on my site http://isaiahjturner.com/wwdc/</mutableString>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -409,7 +409,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fcU-z0-H7S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1530" y="-52"/>
+            <point key="canvasLocation" x="-1538" y="45"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -460,7 +460,7 @@ My final request. Is there any way that Apple could release a count of how many 
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" id="x6a-X4-yW5">
                                         <rect key="frame" x="20" y="289" width="280" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">Tap for a rather Flappy version of my life's timeline. You're not a real developer until you have made a Flappy Bird clone rite? Swipe up from the bottom for details about that event.</string>
+                                        <string key="text">Tap for a rather Flappy version of my life's timeline. You're not a real developer until you have made a Flappy Bird clone rite? Swipe up from the bottom for details about that event!</string>
                                         <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -483,7 +483,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="637" y="165"/>
+            <point key="canvasLocation" x="813" y="45"/>
         </scene>
         <!--Interests View Controller - Interests-->
         <scene sceneID="KCW-pN-tlk">
@@ -525,7 +525,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bsh-Im-wiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1114" y="986"/>
+            <point key="canvasLocation" x="-882" y="987"/>
         </scene>
         <!--View Controller - Achievements-->
         <scene sceneID="4VF-dp-eSZ">
@@ -535,13 +535,29 @@ My final request. Is there any way that Apple could release a count of how many 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I won a hackathon!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Zi-xV-owl">
-                                <rect key="frame" x="20" y="273" width="280" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="In March I was selected by my school to represent my acedemic achivemts in a acedemic symposium of all nearby high schools." selectable="NO" id="prb-aB-5Lt">
+                                <rect key="frame" x="20" y="59" width="280" height="207"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="eDb-lr-gom">
+                                <rect key="frame" x="20" y="410" width="280" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                                <string key="text">In the begining of April I received an Oculus DK1 and a preorder of Oculus DK2 after winning the Oculus sponsor prize Bitcamp. Bitcamp is a 36 hour hackathon at University of Maryland.</string>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcamp.png" id="OMB-9C-K3i">
+                                <rect key="frame" x="94" y="274" width="132" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nav-knight.png" id="7ff-EQ-K57">
+                                <rect key="frame" x="144" y="83" width="32" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -550,7 +566,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cL6-jD-c9N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="1064"/>
+            <point key="canvasLocation" x="272" y="987"/>
         </scene>
         <!--Unlock View Controller-->
         <scene sceneID="kef-86-r2Q">
@@ -588,6 +604,52 @@ developer in development.</string>
                                     <segue destination="2YY-5p-YFx" kind="push" id="wtG-Yv-5sP"/>
                                 </connections>
                             </button>
+                            <imageView autoresizesSubviews="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0351.png" id="6l5-nm-lh9">
+                                <rect key="frame" x="130" y="311" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Ch-bh-THa">
+                                <rect key="frame" x="11" y="308" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="about" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zhW-k2-ruR">
+                                <rect key="frame" x="131" y="254" width="57" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="awards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gFP-Sa-eeW">
+                                <rect key="frame" x="241" y="308" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timeline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p4X-Up-Dkz">
+                                <rect key="frame" x="241" y="424" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ORv-pU-wvw">
+                                <rect key="frame" x="11" y="424" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="school" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ehz-Pn-dfS">
+                                <rect key="frame" x="125" y="485" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" id="cc6-86-HGd">
                                 <rect key="frame" x="0.0" y="183" width="320" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -654,52 +716,6 @@ developer in development.</string>
                                     </button>
                                 </subviews>
                             </view>
-                            <imageView autoresizesSubviews="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0351.png" id="6l5-nm-lh9">
-                                <rect key="frame" x="130" y="311" width="60" height="60"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="skills" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Ch-bh-THa">
-                                <rect key="frame" x="11" y="308" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="about" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zhW-k2-ruR">
-                                <rect key="frame" x="131" y="254" width="57" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="awards" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gFP-Sa-eeW">
-                                <rect key="frame" x="241" y="308" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="timeline" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="p4X-Up-Dkz">
-                                <rect key="frame" x="241" y="424" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ORv-pU-wvw">
-                                <rect key="frame" x="11" y="424" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="school" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ehz-Pn-dfS">
-                                <rect key="frame" x="125" y="485" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="13"/>
-                                <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -707,21 +723,25 @@ developer in development.</string>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="aboutButton" destination="bKS-ef-DGx" id="rD5-7N-p21"/>
-                        <outlet property="awardsButton" destination="CVY-PT-ZM0" id="gXi-BZ-Owy"/>
                         <outlet property="buttonsView" destination="cc6-86-HGd" id="GIL-Jk-O6b"/>
-                        <outlet property="educationButton" destination="lHj-7n-Y5r" id="eWa-no-a1u"/>
-                        <outlet property="interestsButton" destination="0yW-Dz-xvG" id="g8s-3e-wbM"/>
                         <outlet property="myFace" destination="6l5-nm-lh9" id="z28-Je-daS"/>
-                        <outlet property="skillsButton" destination="Dkd-jj-Jti" id="e6b-Hu-pVz"/>
-                        <outlet property="timelineButton" destination="yMy-nM-9Kk" id="xbR-X0-CUo"/>
                         <outletCollection property="buttonLabels" destination="p4X-Up-Dkz" id="Sph-HI-CHF"/>
                         <outletCollection property="allButtons" destination="bKS-ef-DGx" id="Lhj-p7-Zyb"/>
+                        <outletCollection property="buttonLabels" destination="gFP-Sa-eeW" id="cMO-VH-9Nd"/>
+                        <outletCollection property="buttonLabels" destination="zhW-k2-ruR" id="Bp1-JD-PLv"/>
+                        <outletCollection property="buttonLabels" destination="3Ch-bh-THa" id="2Af-ZW-uIw"/>
+                        <outletCollection property="buttonLabels" destination="ORv-pU-wvw" id="KkK-F6-leg"/>
+                        <outletCollection property="buttonLabels" destination="Ehz-Pn-dfS" id="vGe-5i-uwG"/>
+                        <outletCollection property="allButtons" destination="CVY-PT-ZM0" id="bY2-zN-hav"/>
+                        <outletCollection property="allButtons" destination="yMy-nM-9Kk" id="Xyq-5w-dsM"/>
+                        <outletCollection property="allButtons" destination="lHj-7n-Y5r" id="Z4I-pJ-Yph"/>
+                        <outletCollection property="allButtons" destination="0yW-Dz-xvG" id="TFP-gm-3km"/>
+                        <outletCollection property="allButtons" destination="Dkd-jj-Jti" id="lzo-Yp-Np1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdp-bJ-2eA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-265" y="146"/>
+            <point key="canvasLocation" x="-297" y="26"/>
         </scene>
         <!--Education View Controller - Education-->
         <scene sceneID="mf0-TP-BQa">
@@ -761,7 +781,7 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ia-oQ-95O" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="445" y="-948"/>
+            <point key="canvasLocation" x="272" y="-908"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2JV-Rs-AqO">
@@ -812,7 +832,7 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eyu-uD-8Y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1039" y="814"/>
+            <point key="canvasLocation" x="1399" y="26"/>
         </scene>
         <!--My Website View Controller - Loading...-->
         <scene sceneID="bjh-pt-qd1">
@@ -847,14 +867,16 @@ developer in development.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SeS-sj-5TY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="545" y="-2281"/>
+            <point key="canvasLocation" x="513" y="-2401"/>
         </scene>
     </scenes>
     <resources>
         <image name="IMG_0351.png" width="960" height="1280"/>
+        <image name="bitcamp.png" width="640" height="681"/>
         <image name="clock-128.png" width="128" height="128"/>
         <image name="logo-2.png" width="496" height="97"/>
         <image name="my_face.png" width="399" height="543"/>
+        <image name="nav-knight.png" width="65" height="70"/>
         <image name="sail_boat-128.png" width="128" height="128"/>
         <image name="school-128.png" width="128" height="128"/>
         <image name="toolbox-128.png" width="128" height="128"/>

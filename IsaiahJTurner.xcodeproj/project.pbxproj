@@ -43,6 +43,8 @@
 		C6A558DA18F49102002FC33A /* IJTMyAgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A558D918F49102002FC33A /* IJTMyAgeViewController.m */; };
 		C6A558DD18F49120002FC33A /* IJTSailingInstructorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A558DC18F49120002FC33A /* IJTSailingInstructorViewController.m */; };
 		C6A558E018F4913F002FC33A /* IJTVarsitySailingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A558DF18F4913F002FC33A /* IJTVarsitySailingViewController.m */; };
+		C6B4833018F8B97C0087DF0A /* bitcamp.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B4832F18F8B97C0087DF0A /* bitcamp.png */; };
+		C6B4833218F8BA1B0087DF0A /* nav-knight.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B4833118F8BA1B0087DF0A /* nav-knight.png */; };
 		C6E4772518F49CBA00C15565 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E4772418F49CBA00C15565 /* CoreLocation.framework */; };
 		C6E4772718F49CBF00C15565 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E4772618F49CBF00C15565 /* MapKit.framework */; };
 		C6E4772B18F49D8000C15565 /* IJTMapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4772A18F49D8000C15565 /* IJTMapViewAnnotation.m */; };
@@ -130,6 +132,8 @@
 		C6A558DC18F49120002FC33A /* IJTSailingInstructorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTSailingInstructorViewController.m; sourceTree = "<group>"; };
 		C6A558DE18F4913F002FC33A /* IJTVarsitySailingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTVarsitySailingViewController.h; sourceTree = "<group>"; };
 		C6A558DF18F4913F002FC33A /* IJTVarsitySailingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJTVarsitySailingViewController.m; sourceTree = "<group>"; };
+		C6B4832F18F8B97C0087DF0A /* bitcamp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitcamp.png; sourceTree = "<group>"; };
+		C6B4833118F8BA1B0087DF0A /* nav-knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-knight.png"; sourceTree = "<group>"; };
 		C6E4772418F49CBA00C15565 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		C6E4772618F49CBF00C15565 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C6E4772918F49D8000C15565 /* IJTMapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJTMapViewAnnotation.h; sourceTree = "<group>"; };
@@ -259,6 +263,7 @@
 		C67BC8ED18EE6EF400B426A3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C6B4832E18F8B96F0087DF0A /* Achievments */,
 				C61CAF3418F620AB00CD9A84 /* Edumication */,
 				C61CAEEA18F4ED3500CD9A84 /* logo-2.png */,
 				C61CAEE418F4D39D00CD9A84 /* Skills */,
@@ -379,6 +384,15 @@
 				C6A558DF18F4913F002FC33A /* IJTVarsitySailingViewController.m */,
 			);
 			name = SubViewControllers;
+			sourceTree = "<group>";
+		};
+		C6B4832E18F8B96F0087DF0A /* Achievments */ = {
+			isa = PBXGroup;
+			children = (
+				C6B4833118F8BA1B0087DF0A /* nav-knight.png */,
+				C6B4832F18F8B97C0087DF0A /* bitcamp.png */,
+			);
+			name = Achievments;
 			sourceTree = "<group>";
 		};
 		C6E4772818F49D6300C15565 /* Objects */ = {
@@ -561,6 +575,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B4833018F8B97C0087DF0A /* bitcamp.png in Resources */,
 				E6F6B12118A7E568002B3092 /* Images.xcassets in Resources */,
 				C64B5BB518F36009006FC9C7 /* school-128.png in Resources */,
 				C67BC8D218EE03A500B426A3 /* wwdc.png in Resources */,
@@ -576,6 +591,7 @@
 				C61CAEE918F4E08E00CD9A84 /* up-128.png in Resources */,
 				C61CAEE318F4C36C00CD9A84 /* IMG_0351.png in Resources */,
 				C67BC8D518EE058D00B426A3 /* bobble.png in Resources */,
+				C6B4833218F8BA1B0087DF0A /* nav-knight.png in Resources */,
 				C6A558CC18F38631002FC33A /* user_male3-128.png in Resources */,
 				C61CAEF418F6061300CD9A84 /* my_face.png in Resources */,
 				C64B5BB918F36041006FC9C7 /* trophy-128.png in Resources */,
