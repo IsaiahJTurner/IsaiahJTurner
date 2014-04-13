@@ -69,7 +69,6 @@
         self.currentText.text = @"I bet you a dollar that the winning apps have blur, skeuomorphism, and parallax. :p I love to create beautiful designs!";
     } else {
         self.currentText.text = @"That's me!";
-        [self.navigationController performSelector:@selector(popViewControllerAnimated:) withObject:(id)kCFBooleanTrue afterDelay:2];
     }
     [self.meView setProgress:self.currentValue animated:YES];
     [self.currentText setSelectable:NO];

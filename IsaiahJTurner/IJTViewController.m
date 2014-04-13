@@ -112,6 +112,7 @@
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             if (!gameOver.isHidden)[self generatePipesAndMove:DEFAULT_OFFSET];
         });
+        [self performSelector:@selector(showBottom:) withObject:nil afterDelay:15.0];
         firstFlap = YES;
     }
     
@@ -178,7 +179,9 @@
         [blockCollision removeItem:item];
         [blockAnimator removeBehavior:pipesDynamicProperties];
         [blockAnimator removeBehavior:movePipes];
-        if (points2x%2 == 0) [self generatePipesAndMove:DEFAULT_OFFSET];
+        if (points2x%2 == 0) {
+            [self generatePipesAndMove:DEFAULT_OFFSET];
+        }
     }
 }
 int myRandom() {
@@ -188,9 +191,23 @@ int myRandom() {
 - (void)collisionBehavior:(UICollisionBehavior *)behavior beganContactForItem:(id<UIDynamicItem>)item1 withItem:(id<UIDynamicItem>)item2 atPoint:(CGPoint)p {
     if (((UIView *)item1).tag != 2014 && ((UIView *)item2).tag != 2014) {
         [blockAnimator removeAllBehaviors];
-        sleep(0.5);
-        [bottomView setOpened:YES animated:YES];
+        [self showBottom:true];
     }
+}
+
+- (void)showBottom:(BOOL)loss {
+    self.instructionsLabel.selectable = true;
+    self.instructionsLabel.hidden = NO;
+    if (!loss) {
+        if (!self.instructionsLabel.tag == 5)
+    self.instructionsLabel.text = @"I diddn't have a whole lot of time to finish this app so this is the end of my timeline. I hope you enjoyed it! Want to see what my future holds? Check out my website! www.IsaiahJTurner.com";
+    } else {
+        self.instructionsLabel.text = @"I guess winning isn't for everyone.";
+        self.instructionsLabel.tag = 5;
+    }
+    self.instructionsLabel.selectable = false;
+
+   [bottomView setOpened:YES animated:YES];
 }
 
 - (BOOL)shouldAutorotate {

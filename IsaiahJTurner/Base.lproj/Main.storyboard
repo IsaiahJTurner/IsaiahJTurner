@@ -391,11 +391,11 @@
                                 <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
 
-I wish I was not in school while I was working on this. Jony Ive would not be happy about my lack of blur, skeuomorphism (or is my lack of blur actually secretly skeuomorphism??? The more you know.) and parallax. I am however very proud of my first ever dark-themed app. If Jony sees this app, make sure to say sorry to him. I tried my best and put in over 50 hours of work. I made this because I love you: https://twitter.com/IsaiahJTurner/status/452182669242028032  
+I wish that I was not in school while I was working on this. Jony Ive would not be happy about my lack of blur, skeuomorphism (or is my lack of blur actually secretly skeuomorphism??? The more you know.) and parallax. I am however very proud of my first ever dark-themed app. If Jony sees this app, make sure to let him know he is my idol. I tried my best on this app and put in over 70 hours of work. Oh, and Jony, I made this because I love you: https://twitter.com/IsaiahJTurner/status/452182669242028032  
 
-Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (whether I am selected or not). I made this page, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship.
+Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (whether I am selected or not). I made a feedback form, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship. Do it here: http://isaiahjturner.com/wwdc/
 
-My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea. I made a super simple feedback from for this app on my site http://isaiahjturner.com/wwdc/</mutableString>
+My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</mutableString>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -454,7 +454,7 @@ My final request. Is there any way that Apple could release a count of how many 
                                         </subviews>
                                     </view>
                                     <view contentMode="scaleToFill" id="PT4-wz-U0H">
-                                        <rect key="frame" x="0.0" y="-2" width="320" height="2"/>
+                                        <rect key="frame" x="0.0" y="-2" width="320" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </view>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" id="x6a-X4-yW5">
@@ -483,7 +483,7 @@ My final request. Is there any way that Apple could release a count of how many 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="813" y="45"/>
+            <point key="canvasLocation" x="812" y="45"/>
         </scene>
         <!--Interests View Controller - Interests-->
         <scene sceneID="KCW-pN-tlk">
@@ -535,14 +535,15 @@ My final request. Is there any way that Apple could release a count of how many 
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="In March I was selected by my school to represent my acedemic achivemts in a acedemic symposium of all nearby high schools." selectable="NO" id="prb-aB-5Lt">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" id="prb-aB-5Lt">
                                 <rect key="frame" x="20" y="59" width="280" height="207"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <string key="text">In March I was selected to represent my school in a display of my academic achievements during a symposium consisting of all nearby high schools.</string>
                                 <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" id="eDb-lr-gom">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" id="eDb-lr-gom">
                                 <rect key="frame" x="20" y="410" width="280" height="158"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <string key="text">In the begining of April I received an Oculus DK1 and a preorder of Oculus DK2 after winning the Oculus sponsor prize Bitcamp. Bitcamp is a 36 hour hackathon at University of Maryland.</string>
