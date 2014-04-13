@@ -50,7 +50,7 @@
     NSString *destructiveTitle = @"Homepage"; //Action Sheet Button Titles
     NSString *other1 = @"Email Link";
     NSString *other2 = @"Refresh";
-    NSString *other3 = @"Previos Page";
+    NSString *other3 = @"Previous Page";
     NSString *cancelTitle = @"Cancel";
     UIActionSheet *actionSheet = [[UIActionSheet alloc]
                                   initWithTitle:actionSheetTitle

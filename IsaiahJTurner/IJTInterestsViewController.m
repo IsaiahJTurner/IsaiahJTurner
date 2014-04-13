@@ -56,7 +56,7 @@
     } else if (curVal == 3) {
         self.currentText.text = @"Hackathons? Love them! It's so fun to meet new people.";
     } else if (curVal == 4) {
-        self.currentText.text = @"Writing code... well duh. But I specifically love to come up with the great ideas behind the code!";
+        self.currentText.text = @"Writing code... well duh. I especially love to come up with the great ideas behind the code!";
     } else if (curVal == 5) {
         self.currentText.text = @"Eating... mmmm food. <3";
     } else if (curVal == 6) {

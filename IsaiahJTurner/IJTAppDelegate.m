@@ -7,15 +7,25 @@
 //
 
 #import "IJTAppDelegate.h"
+#define isiPhone5  ([[UIScreen mainScreen] bounds].size.height == 568)?TRUE:FALSE
 
 @implementation IJTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    return YES;
+    if (!isiPhone5)
+    {
+        UIAlertView *confirmAlertView=[[UIAlertView alloc]initWithTitle:@"iPhone 4/4S Not Supported" message:@"Please use an iPhone 5 or 5S. Don't have one? Simulator also works." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [confirmAlertView show];
+    }
+        return YES;
 }
-							
+
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    UIAlertView *confirmAlertView=[[UIAlertView alloc]initWithTitle:@"iPhone 4/4s Not Supported" message:@"Please use an iPhone 5 or 5S. Don't have one? Simulator also works." delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [confirmAlertView show];
+}
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
   // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
