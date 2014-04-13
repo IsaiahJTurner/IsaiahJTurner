@@ -106,13 +106,16 @@
 - (void) handleSingleTapGesture:(UITapGestureRecognizer *)gestureRecognizer {
     if (!firstFlap) {
         self.instructionsLabel.hidden = YES;
+        self.instructionsLabel.selectable = TRUE;
+        self.instructionsLabel.text = @"I didn't have a whole lot of time to finish this app so this is the end of my timeline. I hope you enjoyed it! Want to see what my future holds? Check out my website! www.IsaiahJTurner.com";
+
         gravity = [[UIGravityBehavior alloc] initWithItems:@[self.block]];
         gravity.magnitude = 1.1;
         [blockAnimator addBehavior:gravity];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
             if (!gameOver.isHidden)[self generatePipesAndMove:DEFAULT_OFFSET];
         });
-        [self performSelector:@selector(showBottom:) withObject:nil afterDelay:15.0];
+        [self performSelector:@selector(showBottom:) withObject:nil afterDelay:14.0];
         firstFlap = YES;
     }
     
@@ -199,8 +202,8 @@ int myRandom() {
     self.instructionsLabel.selectable = true;
     self.instructionsLabel.hidden = NO;
     if (!loss) {
-        if (!self.instructionsLabel.tag == 5)
-    self.instructionsLabel.text = @"I diddn't have a whole lot of time to finish this app so this is the end of my timeline. I hope you enjoyed it! Want to see what my future holds? Check out my website! www.IsaiahJTurner.com";
+        if (self.instructionsLabel.tag != 5)
+    self.instructionsLabel.text = @"I didn't have a whole lot of time to finish this app so this is the end of my timeline. I hope you enjoyed it! Want to see what my future holds? Check out my website! www.IsaiahJTurner.com";
     } else {
         self.instructionsLabel.text = @"I guess winning isn't for everyone.";
         self.instructionsLabel.tag = 5;

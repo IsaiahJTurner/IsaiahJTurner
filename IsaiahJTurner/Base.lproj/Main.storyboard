@@ -389,13 +389,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="601"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.1176470588" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
+                                <string key="text">Minimal proofreading was done on this page because I was focusing on the app. Hope it doesn't get too annoying. :/
 
 I wish that I was not in school while I was working on this. Jony Ive would not be happy about my lack of blur, skeuomorphism (or is my lack of blur actually secretly skeuomorphism??? The more you know.) and parallax. I am however very proud of my first ever dark-themed app. If Jony sees this app, make sure to let him know he is my idol. I tried my best on this app and put in over 70 hours of work. Oh, and Jony, I made this because I love you: https://twitter.com/IsaiahJTurner/status/452182669242028032  
 
 Part two. Okay so I don't know if you are allowed to or not but the one thing that drives me bonkers is not knowing what I should improve (whether I am selected or not). I made a feedback form, would you mind giving me a little feedback on this app and what I should improve upon? I love to learn! Honestly, your feedback is worth more to me than the scholarship. Do it here: http://isaiahjturner.com/wwdc/
 
-My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</mutableString>
+My final request. Is there any way that Apple could release a count of how many people applied? There is a group of over 50 people chatting about their WWDC submissions on http://wwdc.slack.com and even the people in the group that attended WWDC last year keep wondering about this and have no idea.</string>
                                 <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
