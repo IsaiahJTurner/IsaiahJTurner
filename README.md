@@ -11,7 +11,9 @@ I wish I was not in school while I was working on this. Jony Ive would not be ha
 
 ## Screenshot
 
-![IsaiahJTurner](https://github.com/IsaiahJTurner/IsaiahJTurner/screenshots/1.png "Main Menu Screenshot")
+![Screenshot 1](https://raw.githubusercontent.com/IsaiahJTurner/IsaiahJTurner/master/screenshots/1.png "Screenshot 1")
+![Screenshot 2](https://raw.githubusercontent.com/IsaiahJTurner/IsaiahJTurner/master/screenshots/2.png "Screenshot 2")
+![Screenshot 3](https://raw.githubusercontent.com/IsaiahJTurner/IsaiahJTurner/master/screenshots/3.png "Screenshot 3")
 
 ## License
 
